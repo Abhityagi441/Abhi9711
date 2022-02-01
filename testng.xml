@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Testing_baba">
+  <test  name="Login_test" enabled ="true">
+    <classes>
+      <class name="test.Testingbaba_logintest"/>
+    </classes>
+  </test>
+  <test  name="Element_test" enabled ="false">
+  <classes>
+  <class name="test.Testingbaba_elementtest" >
+  </class>
+  </classes>
+  </test>
+   <test  name="Textbox_test" enabled ="true">
+  <classes>
+  <class name="test.Testingbaba_textboxtest">
+  </class>
+  </classes>
+  </test>
+   <test  name="Checkbox_test" enabled="false">
+  <classes>
+  <class name="test.Testingbaba_checkbox_test">
+  </class>
+  </classes>
+  </test>
+   <test  name="Webtables_test" enabled ="false">
+  <classes>
+  <class name="test.Testingbaba_webtablestest" >
+  </class>
+  </classes>
+  </test>
+   <test  name="Buttons_test" enabled ="false">
+  <classes>
+  <class name="test.Testingbaba_buttonstest" >
+  </class>
+  </classes>
+  </test>
+   <test  name="Links_test" enabled ="false">
+  <classes>
+  <class name="test.Testingbaba_linktest" >
+  </class>
+  </classes>
+  </test>
+  <test  name="Alerts_frame_window_test" enabled ="true">
+  <classes>
+  <class name="test.Testingbaba_alerts_frame_windowtest" >
+  </class>
+  </classes>
+  </test>
+  <test  name="Alerts_test" enabled ="false">
+  <classes>
+  <class name="test.Alertstest" >
+  </class>
+  </classes>
+  </test>
+  <test  name="Frames_test" enabled ="false">
+  <classes>
+  <class name="test.Framestest" >
+  </class>
+  </classes>
+  </test>
+  
+  <test  name="All_test" enabled ="false">
+  <classes>
+  <class name="test.Testingbaba_alltest" >
+  </class>
+  </classes>
+  </test>
+   
+  
+</suite> <!-- Suite -->
