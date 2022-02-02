@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-02T08:47:45Z" name="Testing_baba" finished-at="2022-02-02T08:48:20Z" duration-ms="35487">
+    <groups>
+    </groups>
+    <test started-at="2022-02-02T08:47:45Z" name="Login_test" finished-at="2022-02-02T08:48:02Z" duration-ms="16998">
+      <class name="test.Testingbaba_logintest">
+        <test-method is-config="true" signature="getlauch_url()[pri:0, instance:test.Testingbaba_logintest@1672fe87]" started-at="2022-02-02T14:17:45Z" name="getlauch_url" finished-at="2022-02-02T14:17:57Z" duration-ms="12037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getlauch_url -->
+        <test-method signature="clickonclosebtn()[pri:0, instance:test.Testingbaba_logintest@1672fe87]" started-at="2022-02-02T14:17:57Z" name="clickonclosebtn" finished-at="2022-02-02T14:17:58Z" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonclosebtn -->
+        <test-method is-config="true" signature="resultanalysis(org.testng.ITestResult)[pri:0, instance:test.Testingbaba_logintest@1672fe87]" started-at="2022-02-02T14:17:58Z" name="resultanalysis" finished-at="2022-02-02T14:17:59Z" duration-ms="1029" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickonclosebtn status=SUCCESS method=Testingbaba_logintest.clickonclosebtn()[pri:0, instance:test.Testingbaba_logintest@1672fe87] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultanalysis -->
+        <test-method signature="clickonpracticeform()[pri:0, instance:test.Testingbaba_logintest@1672fe87]" started-at="2022-02-02T14:17:59Z" name="clickonpracticeform" finished-at="2022-02-02T14:18:02Z" duration-ms="3126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonpracticeform -->
+        <test-method is-config="true" signature="resultanalysis(org.testng.ITestResult)[pri:0, instance:test.Testingbaba_logintest@1672fe87]" started-at="2022-02-02T14:18:02Z" name="resultanalysis" finished-at="2022-02-02T14:18:02Z" duration-ms="330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickonpracticeform status=SUCCESS method=Testingbaba_logintest.clickonpracticeform()[pri:0, instance:test.Testingbaba_logintest@1672fe87] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultanalysis -->
+      </class> <!-- test.Testingbaba_logintest -->
+    </test> <!-- Login_test -->
+    <test started-at="2022-02-02T08:48:02Z" name="Element_test" finished-at="2022-02-02T08:48:02Z" duration-ms="269">
+      <class name="test.Testingbaba_elementtest">
+        <test-method is-config="true" signature="getlaunch()[pri:0, instance:test.Testingbaba_elementtest@20435c40]" started-at="2022-02-02T14:18:02Z" name="getlaunch" finished-at="2022-02-02T14:18:02Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getlaunch -->
+        <test-method signature="clickonelements()[pri:0, instance:test.Testingbaba_elementtest@20435c40]" started-at="2022-02-02T14:18:02Z" name="clickonelements" finished-at="2022-02-02T14:18:02Z" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonelements -->
+      </class> <!-- test.Testingbaba_elementtest -->
+    </test> <!-- Element_test -->
+    <test started-at="2022-02-02T08:48:02Z" name="Textbox_test" finished-at="2022-02-02T08:48:03Z" duration-ms="637">
+      <class name="test.Testingbaba_textboxtest">
+        <test-method is-config="true" signature="gettextbox()[pri:0, instance:test.Testingbaba_textboxtest@2d6c53fc]" started-at="2022-02-02T14:18:02Z" name="gettextbox" finished-at="2022-02-02T14:18:02Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettextbox -->
+        <test-method signature="clickontextbox()[pri:0, instance:test.Testingbaba_textboxtest@2d6c53fc]" started-at="2022-02-02T14:18:02Z" name="clickontextbox" finished-at="2022-02-02T14:18:03Z" duration-ms="632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickontextbox -->
+      </class> <!-- test.Testingbaba_textboxtest -->
+    </test> <!-- Textbox_test -->
+    <test started-at="2022-02-02T08:48:03Z" name="Checkbox_test" finished-at="2022-02-02T08:48:07Z" duration-ms="3996">
+      <class name="test.Testingbaba_checkbox_test">
+        <test-method is-config="true" signature="getcheck()[pri:0, instance:test.Testingbaba_checkbox_test@20f5281c]" started-at="2022-02-02T14:18:03Z" name="getcheck" finished-at="2022-02-02T14:18:03Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getcheck -->
+        <test-method signature="clickoncheckbox()[pri:0, instance:test.Testingbaba_checkbox_test@20f5281c]" started-at="2022-02-02T14:18:03Z" name="clickoncheckbox" finished-at="2022-02-02T14:18:05Z" duration-ms="2239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickoncheckbox -->
+        <test-method signature="clickonmobile()[pri:0, instance:test.Testingbaba_checkbox_test@20f5281c]" started-at="2022-02-02T14:18:05Z" name="clickonmobile" finished-at="2022-02-02T14:18:06Z" duration-ms="841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonmobile -->
+        <test-method signature="clickonlaptop()[pri:0, instance:test.Testingbaba_checkbox_test@20f5281c]" started-at="2022-02-02T14:18:06Z" name="clickonlaptop" finished-at="2022-02-02T14:18:07Z" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonlaptop -->
+        <test-method signature="clickondesktop()[pri:0, instance:test.Testingbaba_checkbox_test@20f5281c]" started-at="2022-02-02T14:18:07Z" name="clickondesktop" finished-at="2022-02-02T14:18:07Z" duration-ms="443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickondesktop -->
+      </class> <!-- test.Testingbaba_checkbox_test -->
+    </test> <!-- Checkbox_test -->
+    <test started-at="2022-02-02T08:48:07Z" name="Webtables_test" finished-at="2022-02-02T08:48:20Z" duration-ms="13169">
+      <class name="test.Testingbaba_webtablestest">
+        <test-method is-config="true" signature="getwebtable()[pri:0, instance:test.Testingbaba_webtablestest@768fc0f2]" started-at="2022-02-02T14:18:07Z" name="getwebtable" finished-at="2022-02-02T14:18:07Z" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getwebtable -->
+        <test-method signature="clickonwebtables()[pri:0, instance:test.Testingbaba_webtablestest@768fc0f2]" started-at="2022-02-02T14:18:07Z" name="clickonwebtables" finished-at="2022-02-02T14:18:07Z" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonwebtables -->
+        <test-method signature="filldetails()[pri:0, instance:test.Testingbaba_webtablestest@768fc0f2]" started-at="2022-02-02T14:18:07Z" name="filldetails" finished-at="2022-02-02T14:18:15Z" duration-ms="7980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filldetails -->
+        <test-method signature="clickonedit()[pri:0, instance:test.Testingbaba_webtablestest@768fc0f2]" started-at="2022-02-02T14:18:15Z" name="clickonedit" finished-at="2022-02-02T14:18:20Z" duration-ms="4915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonedit -->
+      </class> <!-- test.Testingbaba_webtablestest -->
+    </test> <!-- Webtables_test -->
+    <test started-at="2022-02-02T08:48:20Z" name="Alerts_frame_window_test" finished-at="2022-02-02T08:48:20Z" duration-ms="244">
+      <class name="test.Testingbaba_alerts_frame_windowtest">
+        <test-method is-config="true" signature="getframe_alert_window()[pri:0, instance:test.Testingbaba_alerts_frame_windowtest@1115ec15]" started-at="2022-02-02T14:18:20Z" name="getframe_alert_window" finished-at="2022-02-02T14:18:20Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getframe_alert_window -->
+        <test-method signature="clickonalert_frame_windowbtn()[pri:0, instance:test.Testingbaba_alerts_frame_windowtest@1115ec15]" started-at="2022-02-02T14:18:20Z" name="clickonalert_frame_windowbtn" finished-at="2022-02-02T14:18:20Z" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonalert_frame_windowbtn -->
+      </class> <!-- test.Testingbaba_alerts_frame_windowtest -->
+      <class name="test.Testingbaba_logintest">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:test.Testingbaba_logintest@1672fe87]" started-at="2022-02-02T14:18:21Z" name="teardown" finished-at="2022-02-02T14:18:24Z" duration-ms="3499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test.Testingbaba_logintest -->
+    </test> <!-- Alerts_frame_window_test -->
+  </suite> <!-- Testing_baba -->
+</testng-results>

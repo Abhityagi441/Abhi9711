@@ -6,7 +6,7 @@
       <class name="test.Testingbaba_logintest"/>
     </classes>
   </test>
-  <test  name="Element_test" enabled ="false">
+  <test  name="Element_test" enabled ="true">
   <classes>
   <class name="test.Testingbaba_elementtest" >
   </class>
@@ -18,13 +18,13 @@
   </class>
   </classes>
   </test>
-   <test  name="Checkbox_test" enabled="false">
+   <test  name="Checkbox_test" enabled="true">
   <classes>
   <class name="test.Testingbaba_checkbox_test">
   </class>
   </classes>
   </test>
-   <test  name="Webtables_test" enabled ="false">
+   <test  name="Webtables_test" enabled ="true">
   <classes>
   <class name="test.Testingbaba_webtablestest" >
   </class>

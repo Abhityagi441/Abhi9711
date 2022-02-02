@@ -14,7 +14,7 @@ public static void getscreenshot(String filename, String foldername)
 {
 	String location=System.getProperty("user.dir");
 	try {
-		String path=location+"\\Screenshots"+foldername+"\\"+filename+".png";
+		String path=location+"\\Screenshots\\"+foldername+"\\"+filename+".png";
 		EventFiringWebDriver efw=new EventFiringWebDriver(driver);
 		File src=efw.getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(src, new File(path));

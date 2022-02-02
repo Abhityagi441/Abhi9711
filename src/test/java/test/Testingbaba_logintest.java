@@ -18,14 +18,17 @@ public class Testingbaba_logintest extends Baselibrary
 			getlaunch("https://testingbaba.com/");
 			ob= new Testingbaba_loginpage();
 		}
+	//click on  close btn is in process...
 	@Test(priority = 0 )
 	public void clickonclosebtn()
 	{
+		
 		ob.clickonclosebtn();
 	}
 	@Test(priority = 1)
 	public void clickonpracticeform()
 	{
+		//click on practiceform....
 		ob.clickonpracticeform();
 	}
 	

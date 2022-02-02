@@ -12,13 +12,15 @@ public Testingbaba_loginpage()
 {
 	PageFactory.initElements(driver, this);
 }
-@FindBy(xpath="//*[text()='�']")
+@FindBy(xpath="//*[@data-dismiss=\"modal\"]")
 private WebElement closebtn;
 @FindBy(xpath="//*[text()='Practice']")
 private WebElement practiceform;
 
+//click on close btn...
 public void clickonclosebtn()
 {
+	
 	closebtn.click();
 }
 public void clickonpracticeform()

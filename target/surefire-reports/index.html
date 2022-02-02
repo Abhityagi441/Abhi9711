@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Testing_baba" class="navigator-link">
+              <span class="suite-name border-passed">Testing_baba</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Testing_baba" class="navigator-link ">
+                    <span>C:\Users\dell\eclipse-workspace\Github\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Testing_baba" class="navigator-link ">
+                    <span class="test-stats">6 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Testing_baba" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Testing_baba" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Testing_baba" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Testing_baba" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Testing_baba" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Testing_baba" class="hide-methods passed suite-Testing_baba"> (hide)</a> <!-- hide-methods passed suite-Testing_baba -->
+                      <a href="#" panel-name="suite-Testing_baba" class="show-methods passed suite-Testing_baba"> (show)</a> <!-- show-methods passed suite-Testing_baba -->
+                    </span>
+                    <div class="method-list-content passed suite-Testing_baba">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_baba" title="test.Testingbaba_alerts_frame_windowtest" class="method navigator-link" hash-for-method="clickonalert_frame_windowbtn">clickonalert_frame_windowbtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_baba" title="test.Testingbaba_checkbox_test" class="method navigator-link" hash-for-method="clickoncheckbox">clickoncheckbox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_baba" title="test.Testingbaba_logintest" class="method navigator-link" hash-for-method="clickonclosebtn">clickonclosebtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_baba" title="test.Testingbaba_checkbox_test" class="method navigator-link" hash-for-method="clickondesktop">clickondesktop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_baba" title="test.Testingbaba_webtablestest" class="method navigator-link" hash-for-method="clickonedit">clickonedit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_baba" title="test.Testingbaba_elementtest" class="method navigator-link" hash-for-method="clickonelements">clickonelements</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_baba" title="test.Testingbaba_checkbox_test" class="method navigator-link" hash-for-method="clickonlaptop">clickonlaptop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_baba" title="test.Testingbaba_checkbox_test" class="method navigator-link" hash-for-method="clickonmobile">clickonmobile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_baba" title="test.Testingbaba_logintest" class="method navigator-link" hash-for-method="clickonpracticeform">clickonpracticeform</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_baba" title="test.Testingbaba_textboxtest" class="method navigator-link" hash-for-method="clickontextbox">clickontextbox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_baba" title="test.Testingbaba_webtablestest" class="method navigator-link" hash-for-method="clickonwebtables">clickonwebtables</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_baba" title="test.Testingbaba_webtablestest" class="method navigator-link" hash-for-method="filldetails">filldetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Testing_baba -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Testing_baba" class="panel Testing_baba">
+          <div class="suite-Testing_baba-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.Testingbaba_alerts_frame_windowtest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickonalert_frame_windowbtn">
+                  </a> <!-- clickonalert_frame_windowbtn -->
+                  <span class="method-name">clickonalert_frame_windowbtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testing_baba-class-passed -->
+          <div class="suite-Testing_baba-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.Testingbaba_logintest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickonclosebtn">
+                  </a> <!-- clickonclosebtn -->
+                  <span class="method-name">clickonclosebtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickonpracticeform">
+                  </a> <!-- clickonpracticeform -->
+                  <span class="method-name">clickonpracticeform</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testing_baba-class-passed -->
+          <div class="suite-Testing_baba-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.Testingbaba_webtablestest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickonedit">
+                  </a> <!-- clickonedit -->
+                  <span class="method-name">clickonedit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickonwebtables">
+                  </a> <!-- clickonwebtables -->
+                  <span class="method-name">clickonwebtables</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="filldetails">
+                  </a> <!-- filldetails -->
+                  <span class="method-name">filldetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testing_baba-class-passed -->
+          <div class="suite-Testing_baba-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.Testingbaba_textboxtest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickontextbox">
+                  </a> <!-- clickontextbox -->
+                  <span class="method-name">clickontextbox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testing_baba-class-passed -->
+          <div class="suite-Testing_baba-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.Testingbaba_checkbox_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickoncheckbox">
+                  </a> <!-- clickoncheckbox -->
+                  <span class="method-name">clickoncheckbox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickondesktop">
+                  </a> <!-- clickondesktop -->
+                  <span class="method-name">clickondesktop</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickonlaptop">
+                  </a> <!-- clickonlaptop -->
+                  <span class="method-name">clickonlaptop</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickonmobile">
+                  </a> <!-- clickonmobile -->
+                  <span class="method-name">clickonmobile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testing_baba-class-passed -->
+          <div class="suite-Testing_baba-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.Testingbaba_elementtest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickonelements">
+                  </a> <!-- clickonelements -->
+                  <span class="method-name">clickonelements</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testing_baba-class-passed -->
+        </div> <!-- panel Testing_baba -->
+        <div panel-name="test-xml-Testing_baba" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\dell\eclipse-workspace\Github\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;none&quot; name=&quot;Testing_baba&quot; verbose=&quot;0&quot;&gt;
+  &lt;test name=&quot;Login_test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.Testingbaba_logintest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login_test --&gt;
+  &lt;test name=&quot;Element_test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.Testingbaba_elementtest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Element_test --&gt;
+  &lt;test name=&quot;Textbox_test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.Testingbaba_textboxtest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Textbox_test --&gt;
+  &lt;test name=&quot;Checkbox_test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.Testingbaba_checkbox_test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Checkbox_test --&gt;
+  &lt;test name=&quot;Webtables_test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.Testingbaba_webtablestest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Webtables_test --&gt;
+  &lt;test name=&quot;Alerts_frame_window_test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.Testingbaba_alerts_frame_windowtest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Alerts_frame_window_test --&gt;
+&lt;/suite&gt; &lt;!-- Testing_baba --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Testing_baba" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Testing_baba</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login_test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Element_test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Textbox_test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Checkbox_test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Webtables_test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Alerts_frame_window_test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Testing_baba" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Testing_baba</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Testing_baba" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Testing_baba</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Testing_baba');
+function tableData_Testing_baba() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'filldetails')
+data.setCell(0, 2, 'test.Testingbaba_webtablestest')
+data.setCell(0, 3, 7980);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'clickonedit')
+data.setCell(1, 2, 'test.Testingbaba_webtablestest')
+data.setCell(1, 3, 4915);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'clickonpracticeform')
+data.setCell(2, 2, 'test.Testingbaba_logintest')
+data.setCell(2, 3, 3126);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'clickoncheckbox')
+data.setCell(3, 2, 'test.Testingbaba_checkbox_test')
+data.setCell(3, 3, 2239);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'clickonmobile')
+data.setCell(4, 2, 'test.Testingbaba_checkbox_test')
+data.setCell(4, 3, 841);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'clickontextbox')
+data.setCell(5, 2, 'test.Testingbaba_textboxtest')
+data.setCell(5, 3, 632);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'clickonlaptop')
+data.setCell(6, 2, 'test.Testingbaba_checkbox_test')
+data.setCell(6, 3, 457);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'clickonclosebtn')
+data.setCell(7, 2, 'test.Testingbaba_logintest')
+data.setCell(7, 3, 445);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'clickondesktop')
+data.setCell(8, 2, 'test.Testingbaba_checkbox_test')
+data.setCell(8, 3, 443);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'clickonelements')
+data.setCell(9, 2, 'test.Testingbaba_elementtest')
+data.setCell(9, 3, 264);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'clickonwebtables')
+data.setCell(10, 2, 'test.Testingbaba_webtablestest')
+data.setCell(10, 3, 246);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'clickonalert_frame_windowbtn')
+data.setCell(11, 2, 'test.Testingbaba_alerts_frame_windowtest')
+data.setCell(11, 3, 239);
+window.suiteTableData['Testing_baba']= { tableData: data, tableDiv: 'times-div-Testing_baba'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <div id="times-div-Testing_baba">
+              </div> <!-- times-div-Testing_baba -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Testing_baba" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Testing_baba</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Testing_baba" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Testing_baba" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Testingbaba_logintest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">getlauch_url</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">clickonclosebtn</span>
+                <span class="method-start">12058 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">resultanalysis([TestResult name=clickonclosebtn status=SUCCESS method=Testingbaba_logintest.clickonclosebtn()[pri:0...)</span>
+                <span class="method-start">12503 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">clickonpracticeform</span>
+                <span class="method-start">13533 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">resultanalysis([TestResult name=clickonpracticeform status=SUCCESS method=Testingbaba_logintest.clickonpracticeform...)</span>
+                <span class="method-start">16659 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Testingbaba_elementtest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">getlaunch</span>
+                <span class="method-start">17077 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">clickonelements</span>
+                <span class="method-start">17081 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Testingbaba_textboxtest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">gettextbox</span>
+                <span class="method-start">17361 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">clickontextbox</span>
+                <span class="method-start">17365 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Testingbaba_checkbox_test</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">getcheck</span>
+                <span class="method-start">18049 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">clickoncheckbox</span>
+                <span class="method-start">18058 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickonmobile</span>
+                <span class="method-start">20300 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickonlaptop</span>
+                <span class="method-start">21143 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickondesktop</span>
+                <span class="method-start">21601 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Testingbaba_webtablestest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">getwebtable</span>
+                <span class="method-start">22056 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">clickonwebtables</span>
+                <span class="method-start">22083 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">filldetails</span>
+                <span class="method-start">22330 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickonedit</span>
+                <span class="method-start">30310 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Testingbaba_alerts_frame_windowtest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">getframe_alert_window</span>
+                <span class="method-start">35239 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">clickonalert_frame_windowbtn</span>
+                <span class="method-start">35243 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Testingbaba_logintest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">35495 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

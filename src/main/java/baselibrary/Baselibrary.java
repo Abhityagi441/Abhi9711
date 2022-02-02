@@ -4,6 +4,9 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 
 import screenshot_utility.Screenshot_utility;
 
@@ -21,11 +24,13 @@ public class Baselibrary
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 	
-	public void teardown() throws InterruptedException 
+	@AfterSuite
+	public void teardown() throws InterruptedException
 	{
 		Thread.sleep(2000);
+		driver.quit();
 	}
-	
+	@AfterMethod
 	public void resultanalysis(ITestResult result)
 	{
 		String methodname=result.getMethod().getMethodName();
@@ -33,7 +38,7 @@ public class Baselibrary
 		{
 			Screenshot_utility.getscreenshot(methodname, "Passed");
 		}
-		else if(result.getDStatus()==ITestResult.FAILURE)
+		else if(result.getStatus()==ITestResult.FAILURE)
 		{
 			Screenshot_utility.getscreenshot(methodname, "Failed");
 		}
